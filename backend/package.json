@@ -1,0 +1,35 @@
+{
+  "name": "socset-socset",
+  "version": "0.0.1",
+  "description": "Аналог социальной сети ",
+  "main": "src/app.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "tsx src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitflic.ru/project/id625514789/socset.git"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "express",
+    "react",
+    "social"
+  ],
+  "author": "It",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.6",
+    "express": "^5.2.1",
+    "tsx": "^4.23.13"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5"
+  }
+}
